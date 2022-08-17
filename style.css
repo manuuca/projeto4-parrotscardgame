@@ -5,7 +5,7 @@
     align-items: center;
     justify-items: center; 
     width: 100vw; 
-    height: 100vw;
+    height: 100vh;
 }
 
 .title {
@@ -15,6 +15,7 @@
     font-size: 56px;
     height: 100px;
     margin-top: 40px;   
+    text-align: center;
 }
 
 .container-cards {
@@ -22,6 +23,7 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+    margin-top: 25px;
 }
 
 .card-front{
@@ -42,7 +44,7 @@
     margin-left: 10px;
 }
 
-@media (max-width: 335px) {
+@media (max-width: 425px) {
     .container{
         background-color: #EEF9BF;
         display: flex;
@@ -53,8 +55,7 @@
         height: 100%;
     }
     .title{
-        height: 150px;
-        width: 335px;
+        width: 100vw;
 
         font-family: Roboto;
         font-weight: 700;
