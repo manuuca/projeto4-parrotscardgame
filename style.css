@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700&display=swap");
 .container{
     background-color: #EEF9BF;
     display: flex;
@@ -26,7 +27,7 @@
     margin-top: 25px;
 }
 
-.card-front{
+.card{
     background-color: #A7E9AF;
     height: 146px;
     width: 117px;
@@ -37,11 +38,24 @@
     border: 1px solid #99cae9;
 }
 
-.card-front img{
+.card img{
     width: 100px;
     height: auto;
     margin-top: 24px;
     margin-left: 10px;
+}
+
+.hidden{
+    visibility: hidden;
+}
+
+.not-hidden{
+    visibility: visible;    
+}
+
+.turned-side{
+    position: relative;
+    top: -100%;
 }
 
 @media (max-width: 425px) {
