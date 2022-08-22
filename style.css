@@ -26,7 +26,7 @@
     align-items: center;
     justify-content: center;
     margin-top: 25px;
-    height: 100%;
+    height: 100vh;
 }
 
 .card{
@@ -38,6 +38,8 @@
 
     border-radius: 5px;
     border: 1px solid #99cae9;
+
+    transition: all 1s;
 }
 
 .card img{
@@ -48,7 +50,7 @@
 }
 
 .hidden{
-    visibility: hidden;
+    opacity: 0;  
 }
 
 .not-hidden{
